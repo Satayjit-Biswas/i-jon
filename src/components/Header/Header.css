@@ -1,0 +1,46 @@
+.logo {
+    margin: 30px 0;
+}
+.logo img{
+    max-height: 80px;
+}
+.manu,.search{
+    background-color: black;
+}
+.manu a{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display:inline-block;
+    margin:10px;
+    transition:.3s;
+    border-radius: 5px;
+}
+.manu a:hover{
+    background-color:#FFBD59;
+    color:#000000;
+}
+.search{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-bottom: 30px;
+}
+.search img{
+    margin-left: 10px;
+    max-width: 25px;
+}
+input , button{
+    padding: 6px 15px;
+    margin:0 5px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:#FFBD59;
+}
+.top-counter{
+    color: #ffffff;
+    font-size:22px;
+    margin: 0 8px;
+}

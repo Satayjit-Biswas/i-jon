@@ -1,0 +1,47 @@
+.shop{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: 50px 0;
+
+}
+.product > div{
+    display:flex;
+    align-items: center;
+    min-height: 270px;
+
+}
+.product_img{
+    width:320px;
+    margin-right: 50px;
+}
+.product_diteals{
+    text-align:start;
+    width:100%;
+}
+.product-title a {
+    text-transform: uppercase;
+    color: #FFBD59;
+    text-decoration: none;
+    font-size: 16px;
+    max-height: 46px;
+    overflow: hidden;
+    display: inline-block;
+}
+.product button , .counter button{
+    padding:8px 25px;
+    border-radius: 5px;
+    border: 2px solid #FFBD59;
+    background-color: #ffffff;
+    margin: 10px 0;
+    transition: .3s;
+}
+.product button:hover , .counter button:hover{
+    background-color:#FFBD59
+}
+.counter{
+    max-height:280px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border: 2px solid #FFBD59;
+}
